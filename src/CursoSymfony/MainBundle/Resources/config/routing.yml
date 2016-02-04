@@ -1,0 +1,3 @@
+curso_symfony_main_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: CursoSymfonyMainBundle:Default:index }
