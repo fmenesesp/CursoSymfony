@@ -1,3 +1,8 @@
 curso_symfony_main_homepage:
     path:     /hello/{name}
     defaults: { _controller: CursoSymfonyMainBundle:Default:index }
+
+curso_symfony_main_help:
+    path:     /ayuda/{tema}
+    defaults: { _controller: CursoSymfonyMainBundle:Default:ayuda }
+
