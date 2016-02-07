@@ -8,5 +8,4 @@ curso_symfony_main_help:
 
 curso_symfony_main_info:
     path:     /nosotros/{nombre}/{apellidos}/{nacimiento}
-    defaults: { _controller: CursoSymfonyMainBundle:Info:nosotros, nombre::Fernando, apellidos::Meneses, nacimiento::Spain }
-
+    defaults: { _controller: CursoSymfonyMainBundle:Info:nosotros, nombre:Fernando, apellidos:Meneses, nacimiento:Spain }
